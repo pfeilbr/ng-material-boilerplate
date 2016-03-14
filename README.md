@@ -1,12 +1,35 @@
+## ng-material-boilerplate
 
-**Setup**
+Boilerplate template with the following baked in
 
-  $ npm install
-  $ npm install watchify -g
-  $ npm install live-server -g
+* [Babel](https://babeljs.io/) - es6
+* [Browserify](http://browserify.org/) - bundle
+* [Watchify](https://github.com/substack/watchify) - re-bundle on change for dev
+* [live-server](https://github.com/tapio/live-server) - livereload for dev
+* [Angular Material](https://material.angularjs.org) - UI
+* [Redux](http://redux.js.org/) - state container
+* [ng-redux](https://github.com/wbuchwalter/ng-redux) - Angular bindings for Redux
 
-**Livereload**
+**Install/Setup**
 
-  $ watchify index.js -t babelify -o public/bundle.js
+```sh
+$ git clone https://github.com/pfeilbr/ng-material-boilerplate
+$ cd ng-material-boilerplate
+$ npm install
+$ npm install watchify -g
+$ npm install live-server -g
+```
 
-  $ live-server public/
+**Develop with Livereload**
+
+```sh
+$ npm run dev
+```
+
+> rebuilds on file change and livereloads in browser
+
+**Build**
+
+```sh
+$ npm run build
+```
