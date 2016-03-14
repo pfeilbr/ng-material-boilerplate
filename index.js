@@ -21,6 +21,7 @@ const rootReducer = combineReducers({
   counter
 });
 
+
 // Create a Redux store holding the state of your app.
 // Its API is { subscribe, dispatch, getState }.
 // let store = createStore(counter)
@@ -64,7 +65,7 @@ angular.module('MyApp', [ngMaterial, ngUiRouter, ngRedux])
       url: "/state1",
       template: `
         <md-content>
-          counter.value = {{this.counter.value}}
+          counter.value = {{this.counter.value}} (where is the value)
         </md-content>
         <md-button ng-click="this.run()">click me</md-button>
       `,

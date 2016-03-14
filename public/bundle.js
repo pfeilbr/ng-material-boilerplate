@@ -147,7 +147,7 @@ _angular2.default.module('MyApp', [_angularMaterial2.default, _angularUiRouter2.
   $urlRouterProvider.otherwise("/state1");
   $stateProvider.state('state1', {
     url: "/state1",
-    template: '\n        <md-content>\n          counter.value = {{this.counter.value}}\n        </md-content>\n        <md-button ng-click="this.run()">click me</md-button>\n      ',
+    template: '\n        <md-content>\n          counter.value = {{this.counter.value}} (where is the value)\n        </md-content>\n        <md-button ng-click="this.run()">click me</md-button>\n      ',
     controller: AppCtrl
   }).state('state2', {
     url: "/state2",
