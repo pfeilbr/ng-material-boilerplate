@@ -9,6 +9,7 @@ Boilerplate template with the following baked in
 * [Angular Material](https://material.angularjs.org) - UI
 * [Redux](http://redux.js.org/) - state container
 * [ng-redux](https://github.com/wbuchwalter/ng-redux) - Angular bindings for Redux
+* [concurrently](https://github.com/kimmobrunfeldt/concurrently) - run commands concurrently
 
 **Install/Setup**
 
